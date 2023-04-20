@@ -5,7 +5,7 @@ import axios from "axios";
 // Project Imports
 import CodeEditor from "./CodeEditor";
 import InputEditor from "./InputEditor";
-// import OutputLogs from "./OutputLogs";
+import OutputLogs from "./OutputLogs";
 import Header from "./Header";
 import "./styles.css";
 
