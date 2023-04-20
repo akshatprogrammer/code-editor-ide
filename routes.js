@@ -3,7 +3,9 @@ const express = require("express");
 var request = require("request");
 
 // Project Imports
-const {clientId, clientSecret} = require("./config")
+// const {clientId, clientSecret} = require("./config")
+const apiKey = process.env.API_KEY;
+const secretKey = process.env.SECRET_KEY;
 
 const router = express.Router();
 
