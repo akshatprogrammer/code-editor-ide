@@ -17,19 +17,16 @@ pre {
   margin-left: 5px;
 }
 
-.inputEditor {
-  width: 40% !important;
+.inputEditor, .outputLogs {
+  width: 50% !important;
   margin-top: 20px;
   margin-right: 10px;
   display: inline-block;
   height: 100px !important;
 }
-.outputLogs{
-  display : node;
-}
 
 .codeEditor {
-  width: 80% !important;
+  width: 100% !important;
   height: 400px;
 }
 
