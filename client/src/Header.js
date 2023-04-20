@@ -23,11 +23,11 @@ const Header = ({ onChangeLanguage, value, runCode, status }) => {
           value={value}
           placeholder="Select an option"
         />
-        <button
-          onClick={() => runCode()}
-          disabled={status === "Run" ? false : true}
-          className="customButton"
-        >
+//         <button
+//           onClick={() => runCode()}
+//           disabled={status === "Run" ? false : true}
+//           className="customButton"
+//         >
           {status}
         </button>
       </div>
