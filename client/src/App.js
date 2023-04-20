@@ -18,20 +18,20 @@ const App = () => {
   const [status, setStatus] = useState("Run");
 
   // run button callback
-  const runCode = () => {
-    setStatus("Loading...");
-    axios.post("/runCode", { language, code, input }).then((res) => {
-      if (res.data.memory && res.data.cpuTime) {
-        setOutputLogs("");
-        setOutputLogs(
-          `Memory Used: ${res.data.memory} \nCPU Time: ${res.data.cpuTime} \n${res.data.output} `
-        );
-      } else {
-        setOutputLogs(`${res.data.output} `);
-      }
-      setStatus("Run");
-    });
-  };
+//   const runCode = () => {
+//     setStatus("Loading...");
+//     axios.post("/runCode", { language, code, input }).then((res) => {
+//       if (res.data.memory && res.data.cpuTime) {
+//         setOutputLogs("");
+//         setOutputLogs(
+//           `Memory Used: ${res.data.memory} \nCPU Time: ${res.data.cpuTime} \n${res.data.output} `
+//         );
+//       } else {
+//         setOutputLogs(`${res.data.output} `);
+//       }
+//       setStatus("Run");
+//     });
+//   };
 
   return (
     <div style={{ height: "100%", width: "100%" }}>
@@ -48,7 +48,7 @@ const App = () => {
       />
       <div className="optionSegment">
         <InputEditor value={input} onInputChange={(text) => setInput(text)} />
-        <OutputLogs value={outputLogs} />
+       // <OutputLogs value={outputLogs} />
       </div>
     </div>
   );
