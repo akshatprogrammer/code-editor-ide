@@ -1,4 +1,5 @@
 // Library Imports
+const path = require('path');
 const express = require("express");
 const bodyParser = require("body-parser")
 
@@ -21,5 +22,5 @@ if(process.env.NODE_ENV === 'production'){
 app.use('/', routes) 
 
 app.listen(PORT, ()=>{
-console.log(`Server started at port ${PORT}`)
+console.log(`V1 : Server started at port ${PORT}`)
 })
