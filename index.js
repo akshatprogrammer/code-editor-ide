@@ -23,4 +23,5 @@ app.use('/', routes)
 
 app.listen(PORT, ()=>{
 console.log(`V1 : Server started at port ${PORT}`)
+    V1
 })
