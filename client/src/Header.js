@@ -28,8 +28,8 @@ const Header = ({ onChangeLanguage, value, runCode, status }) => {
 //           disabled={status === "Run" ? false : true}
 //           className="customButton"
 //         >
-          {status}
-        </button>
+//           {status}
+//         </button>
       </div>
     </div>
   );
