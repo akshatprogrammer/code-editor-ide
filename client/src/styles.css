@@ -17,13 +17,15 @@ pre {
   margin-left: 5px;
 }
 
-.inputEditor,
-.outputLogs {
+.inputEditor {
   width: 40% !important;
   margin-top: 20px;
   margin-right: 10px;
   display: inline-block;
   height: 100px !important;
+}
+.outputLogs{
+  display : node;
 }
 
 .codeEditor {
