@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 if(process.env.NODE_ENV === 'production'){
     // Set static folder
-    app.use(express.static('client/build'));
+    app.use(express.static('client/public'));
 
     app.get('*', (req, res)=>{
         res.sendFile(path.resolve('client', 'public', 'index.html'))
