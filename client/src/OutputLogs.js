@@ -14,25 +14,25 @@ const OutputLogs = ({ value }) => {
     console.log("output editor loaded");
   };
   return (
-    <AceEditor
-      className="outputLogs"
-      placeholder="Output Logs"
-      mode="python"
-      theme="monokai"
-      name="outputlogs"
-      onLoad={onLoad}
-      fontSize={14}
-      value={value}
-      showPrintMargin={true}
-      showGutter={true}
-      setOptions={{
-        enableBasicAutocompletion: false,
-        enableLiveAutocompletion: false,
-        enableSnippets: false,
-        showLineNumbers: true,
-        tabSize: 2,
-      }}
-    />
+//     <AceEditor
+//       className="outputLogs"
+//       placeholder="Output Logs"
+//       mode="python"
+//       theme="monokai"
+//       name="outputlogs"
+//       onLoad={onLoad}
+//       fontSize={14}
+//       value={value}
+//       showPrintMargin={true}
+//       showGutter={true}
+//       setOptions={{
+//         enableBasicAutocompletion: false,
+//         enableLiveAutocompletion: false,
+//         enableSnippets: false,
+//         showLineNumbers: true,
+//         tabSize: 2,
+//       }}
+//     />
   );
 };
 
